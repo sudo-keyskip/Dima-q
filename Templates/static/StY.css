@@ -106,9 +106,83 @@ p.biggos {
 
 p.num {
   font-family: Roboto;
-  font-size: 140%;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 p {
   font-family: 'Segoe UI', impact, Roboto, Calibri;
+}
+
+.imag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+p.smol {
+  font-family: Roboto;
+  font-size: 100%;
+  font-weight: lighter;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #0c6b00;
+  color: white;
+  border: 2px solid rgb(19, 146, 0);
+  border-radius: 4px;
+}
+
+input[type=text] {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(19, 146, 0);
+  border-radius: 4px;
+}
+
+input[type=email] {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(19, 146, 0);
+  border-radius: 4px;
+}
+
+input[type=password] {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(19, 146, 0);
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #105700;
+  color: white;
+  border: 2px solid rgb(19, 146, 0);
+  border-radius: 4px;
+}
+
+label {
+  font-family: 'comfortaa', sans-serif;
 }

@@ -9,15 +9,15 @@ app = Flask (__name__)
 def index():
     return render_template ('index.html')
 
-@app.route('/home')
+@app.route('/home/')
 def index1():
     return render_template ('index1.html')
 
-@app.route('/about')
+@app.route('/about/')
 def index2():
     return render_template ('index2.html')
 
-@app.route('/credits')
+@app.route('/credits/')
 def index3():
     return render_template ('index3.html')
 
